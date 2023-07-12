@@ -37,6 +37,7 @@ def create_signups(activities, campers):
     for _ in range(20):
         s = Signup(
             time=rc(range(24)),
+            # time = 20,
             camper_id=rc([camper.id for camper in campers]),
             activity_id=rc([activity.id for activity in activities])
         )

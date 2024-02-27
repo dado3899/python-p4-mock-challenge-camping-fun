@@ -1,8 +1,8 @@
-"""Added validations and fk
+"""empty message
 
-Revision ID: 4551599eedf4
-Revises: ad6fdec1314a
-Create Date: 2023-07-12 12:08:12.202649
+Revision ID: ec83e8f55324
+Revises: 0b245ebb1c68
+Create Date: 2024-02-26 16:09:29.222968
 
 """
 from alembic import op
@@ -10,8 +10,8 @@ import sqlalchemy as sa
 
 
 # revision identifiers, used by Alembic.
-revision = '4551599eedf4'
-down_revision = 'ad6fdec1314a'
+revision = 'ec83e8f55324'
+down_revision = '0b245ebb1c68'
 branch_labels = None
 depends_on = None
 
